@@ -62,9 +62,13 @@ Log entries in database for this user after rolled back: 0
 # Example Scenarios
 The following views are used to demonstrate the behavior of Django signals:
 
-Create User Profile: Triggers a signal when a UserProfile object is created.
+**Create User Profile:** Triggers a signal when a UserProfile object is created.
   - URL: /create-user-profile/
-Create Book: Triggers a signal and logs thread information when a Books object is created.
+
+    
+**Create Book:** Triggers a signal and logs thread information when a Books object is created.
   - URL: /create-book/
-Delete User: Simulates a user deletion, logs the deletion using signals, and rolls back the transaction.
+
+    
+**Delete User:** Simulates a user deletion, logs the deletion using signals, and rolls back the transaction.
   - URL: /delete-user/
